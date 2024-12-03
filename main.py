@@ -12,7 +12,7 @@ class AntivirusApp:
         self.signatures = []
         
         # Title Label
-        tk.Label(root, text="Simple Antivirus", font=("Arial", 20)).pack(pady=10)
+        tk.Label(root, text="Signature-based Antivirus", font=("Arial", 20)).pack(pady=10)
         
         # Buttons
         tk.Button(root, text="Load Signatures", command=self.load_signatures, width=20).pack(pady=5)
